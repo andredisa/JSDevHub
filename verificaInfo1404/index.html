@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>VERIFICA slot machine</title>
+        <script type="text/javascript" src="fileJS.js"></script>
+        <style>
+            body {
+                background-color: rgb(5, 181, 239);
+            }
+            img {
+                width: 200px;
+                height: 200px;
+                border: 10px solid red;
+            }
+            p {
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 20;
+            }
+            input[type = "button"], select {
+                font-size: 30;
+            }
+        </style>
+    </head>
+    <body align = "center">
+        <img src="img/7.PNG" id="img1">
+        <img src="img/7.PNG" id="img2">
+        <img src="img/7.PNG" id="img3">
+        <img src="img/7.PNG" id="img4">
+        <p><b>CIFRA SCOMMESSA:</b></p>
+        <select id = "sel1">
+            <option>1</option>
+            <option>3</option>
+            <option>15</option>
+            <option>25</option>
+            <option>50</option>
+        </select>
+        <script type="text/javascript"> 
+            //oggetti
+            let oggSlot = new SlotMachine();
+        </script>
+        <br>
+        <input type = "button" onclick="oggSlot.Gira()" value = "GO!">
+        <input type = "button" onclick="oggSlot.Resetta()" value = "reset">
+        <p id = "cred"><b>100</b></p>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    background-color: bisque;
+    border: 1px solid;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.ordine{
+    font-size: 20px;
+    text-align: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-right: 500px;
+    border: 2px solid skyblue;  
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.codice{
+    font-size: 20px;
+    text-align: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-right: 500px;
+    border: 2px solid skyblue;  
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}

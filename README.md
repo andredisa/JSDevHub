@@ -32,6 +32,3 @@ Questa cartella contiene una serie di progetti semplici e intuitivi, creati per 
 
 Per qualsiasi domanda o suggerimento, sentiti libero di contattarmi tramite email.
 
----
-
-Spero che questa descrizione ti sia utile! Se hai bisogno di ulteriori modifiche o aggiustamenti, fammelo sapere. 😊

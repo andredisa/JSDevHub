@@ -1,6 +1,4 @@
-Ecco una descrizione per la tua README su GitHub:
 
----
 
 # Progetti JavaScript Scolastici
 

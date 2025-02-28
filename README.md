@@ -30,16 +30,6 @@ Questa cartella contiene una serie di progetti semplici e intuitivi, creati per 
    - **Tecnologie utilizzate:** JavaScript, HTML, CSS.
    - **Istruzioni per l'uso:** Inserisci la tua data di nascita e scopri il tuo segno zodiacale.
 
-## Come Contribuire
-
-Se desideri contribuire a questo repository, segui questi passaggi:
-
-1. Fai un fork del repository.
-2. Crea un nuovo branch (`git checkout -b feature/nome-feature`).
-3. Fai commit delle tue modifiche (`git commit -am 'Aggiungi nuova feature'`).
-4. Fai push del branch (`git push origin feature/nome-feature`).
-5. Apri una Pull Request.
-
 ## Contatti
 
 Per qualsiasi domanda o suggerimento, sentiti libero di contattarmi tramite email.

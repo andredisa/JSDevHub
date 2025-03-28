@@ -1,34 +1,31 @@
+# School JavaScript Projects
 
+Welcome to the repository of my JavaScript projects developed at school! 🎓
 
-# Progetti JavaScript Scolastici
+This folder contains a series of simple and intuitive projects, created to demonstrate various practical applications of JavaScript. Each project is designed to be easily understandable and usable.
 
-Benvenuti nel repository dei miei progetti JavaScript sviluppati a scuola! 🎓
+## Projects
 
-Questa cartella contiene una serie di progetti semplici e intuitivi, creati per dimostrare diverse applicazioni pratiche di JavaScript. Ogni progetto è stato pensato per essere facilmente comprensibile e utilizzabile.
+1. **Car Tax Calculator**
+   - **Description:** An application to calculate car tax based on user input.
+   - **Technologies used:** JavaScript, HTML, CSS.
+   - **Usage instructions:** Enter the required data and get the car tax calculation.
 
-## Progetti
+2. **Pizza Chef Website**
+   - **Description:** A website for a pizza chef, complete with menu, online orders, and contact information.
+   - **Technologies used:** JavaScript, HTML, CSS.
+   - **Usage instructions:** Navigate the site to view the menu and place orders.
 
-1. **Calcolo del Bollo**
-   - **Descrizione:** Un'applicazione per calcolare il bollo auto in base ai dati inseriti dall'utente.
-   - **Tecnologie utilizzate:** JavaScript, HTML, CSS.
-   - **Istruzioni per l'uso:** Inserisci i dati richiesti e ottieni il calcolo del bollo.
+3. **Slot Machine Simulator**
+   - **Description:** A slot machine simulator that allows users to play and try their luck.
+   - **Technologies used:** JavaScript, HTML, CSS.
+   - **Usage instructions:** Click the button to spin the reels and see if you win.
 
-2. **Sito Pizzaiolo**
-   - **Descrizione:** Un sito web per un pizzaiolo, completo di menu, ordini online e contatti.
-   - **Tecnologie utilizzate:** JavaScript, HTML, CSS.
-   - **Istruzioni per l'uso:** Naviga nel sito per visualizzare il menu e fare ordini.
+4. **Zodiac Sign Calculator**
+   - **Description:** An application that calculates the user's zodiac sign based on their birth date.
+   - **Technologies used:** JavaScript, HTML, CSS.
+   - **Usage instructions:** Enter your birth date and discover your zodiac sign.
 
-3. **Simulatore di Slot Machine**
-   - **Descrizione:** Un simulatore di slot machine che permette agli utenti di giocare e tentare la fortuna.
-   - **Tecnologie utilizzate:** JavaScript, HTML, CSS.
-   - **Istruzioni per l'uso:** Clicca sul pulsante per far girare i rulli e vedere se hai vinto.
+## Contact
 
-4. **Calcolo del Segno Zodiacale**
-   - **Descrizione:** Un'applicazione che calcola il segno zodiacale dell'utente in base alla data di nascita.
-   - **Tecnologie utilizzate:** JavaScript, HTML, CSS.
-   - **Istruzioni per l'uso:** Inserisci la tua data di nascita e scopri il tuo segno zodiacale.
-
-## Contatti
-
-Per qualsiasi domanda o suggerimento, sentiti libero di contattarmi tramite email.
-
+For any questions or suggestions, feel free to contact me via email.

@@ -1,6 +1,6 @@
-# School JavaScript Projects
+# Simple JavaScript Projects
 
-Welcome to the repository of my JavaScript projects developed at school! 🎓
+Welcome to the repository of my JavaScript projects! 🎓
 
 This folder contains a series of simple and intuitive projects, created to demonstrate various practical applications of JavaScript. Each project is designed to be easily understandable and usable.
 

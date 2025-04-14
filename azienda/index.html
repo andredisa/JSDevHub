@@ -1,0 +1,57 @@
+<html>
+    <head>
+        
+        <title> esercizio ordine</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1> Gestione ordine</h1>
+        <div class="ordine">
+            <p> ordine </p>
+
+            Azienda:
+            <input type="text" id="azienda" placeholder="Inserisci il nome dell'azienda"><br>
+
+            Prodotto:
+            <input type="text" id="prodotto" placeholder="Inserisci il nome del prodotto"><br>
+
+            Data acquisto:
+            <input type="text" id="giorno" placeholder="Inserisci il giorno">
+            <select name="mese" id="mese">
+                <option value="GEN">GEN</option>
+                <option value="FEB">FEB</option>
+                <option value="MAR">MAR</option>
+                <option value="APR">APR</option>
+                <option value="MAG">MAG</option>
+                <option value="GIU">GIU</option>
+                <option value="LUL">LUG</option>
+                <option value="AGO">AGO</option>
+                <option value="SET">SET</option>
+                <option value="OTT">OTT</option>
+                <option value="NOV">NOV</option>
+                <option value="DIC">DIC</option>
+            </select>
+            <input type="text" id="anno" placeholder="Inserisci il mese"><br>
+
+            Nr. prodotti acquistati:
+            <input type="text" id="numAcquiti" placeholder="Inserisci il numero di prodotti acquistati"><br>
+
+            Prezzo:
+            <input type="text" id="prezzo"><br>
+
+            Tempi di consegna:
+            <input type="radio" id="tempo" value="30"><label for="veloce">30</label>
+            <input type="radio" id="tempo" value="60"><label for="medio">60</label>
+            <input type="radio" id="tempo" value="90"><label for="lento">90</label>
+        </div>
+
+        <div class="codice">
+            <button type="button" id="codAcquisto" onclick="codiceAcq()"> Codice d'acquisto</button>
+            <button type="button" id="cancella" onclick="reset()"> cancella</button><br>
+            <input type="text" id="codiceAcquisto">
+
+        </div>
+    </body>
+</html>

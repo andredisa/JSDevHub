@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title> pizzeria </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="ListaPizze.js"></script>
+    <script>
+        const pizze = new ListaPizze();
+
+        $(document).ready(function() {
+            $('div.grid-item').click(function() {
+                pizze.aggiungi($(this).attr("pizza"));
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <h1> PIZZERIA </h1>
+    <table>
+        <tr>
+            <th>
+                <div class="grid-container">
+                    <div class="grid-item" pizza="Margherita">Margherita</div>
+                    <div class="grid-item" pizza="Prosciutto">Prosciutto</div>
+                    <div class="grid-item" pizza="Patatine">Patatine</div>
+                    <div class="grid-item" pizza="Wurstel">Wurstel</div>
+                    <div class="grid-item" pizza="Rucola">Rucola</div>
+                    <div class="grid-item" pizza="Diavola">diavola</div>
+                </div>
+            </th>
+
+            <th>
+                <div class="immaginePiazzaiolo">
+                    <p> pizzeria disanti</p>
+                </div>
+            </th>
+
+            <th>
+                <p> Lista: </p>
+                <table id="listaPizze" align="center">
+                </table>
+                <button onclick="pizze.reset()">reset</button>
+            </th>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,47 +1,29 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>To Do List</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="scripts/CEvento.js"></script>
-        <script src="scripts/CLista.js"></script>
-        <script>
-           lista=new CLista();
+<html lang="it"> <!-- Aggiunto l'attributo lang -->
+<head>
+  <meta charset="UTF-8"> <!-- Aggiunto il meta charset -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Aggiunto il meta viewport -->
+  <title>ToDo List</title> <!-- Aggiunto il titolo -->
+  <link rel="stylesheet" href="style.css">
+</head>
 
-          
+<body>
 
-        </script>
-    </head>
-    <body>
-        <h1>To Do List</h1>
+  <div id="myDIV" class="header">
+    <h2 style="margin:5px"> ToDo List + </h2>
+    <input type="text" id="myInput" placeholder="create new task...">
+    <input type="date" id="myDate">
+    <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
 
-        <div name="inputEvento">
-            <table align="center" name="tabInput">
-                <tr>
-                    <td><input type="date" id="data" value=""></td>
-                    <td><input type="text" name="evento" id="event" value="Inserisci Attività"></td>
-                    
-                    <td><button class="in" onclick="lista.add()">Add</button></td>
-                    <td><button class="in" onclick="lista.rimuoviTutto()">Remove All</button></td>
-                </tr>
-            </table>
-            <table align="center" style="width: 50%;" >
-                <tr>
-                    <td><button class="in" onclick="lista.visualizzaStato('c')">Visualizza Completati</button></td>
-                    <td><button class="in" onclick="lista.visualizzaStato('nc')">Visualizza non Completati</button></td>
-                    <td><button class="in" onclick="lista.visualizzaStato('tutto')">Visualizza Tutti</button> </td>
-                    <td><button class="in" onclick="lista.verificaUrgenza()">Visualizza Urgenti</button> </td>
-                </tr>
-                
-            </table>
-        </div>
+  <ul id="myUL">
+    <li>cook food</li>
+    <li>study math</li>
+    <li>play carroms</li>
+  </ul>
 
-        <div id="listaEventi">
-          <table align="center", id="lista">
-           
-           
-          </table>
-        </div>
-
-    </body>
+  <script src="js/task.js"></script>
+  <script src="js/tasklist.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>

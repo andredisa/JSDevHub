@@ -20,17 +20,17 @@ A simple pizza ordering interface where users click on pizza names to add them t
 
 ---
 
-### 2. 🎰 Casino Slot Machine  
-**Folder:** `casino/`
+### 2. 🎰 Slot Machine - Play and Win!  
+**Folder:** `slotmachine/`
 
-A graphical slot machine with credits, rewards, and number-based reels that spin on each play.
+A simple web project in HTML, CSS, and JavaScript that simulates a slot machine. Users can bet their credits and try to win prizes based on the results of the spins.
 
-- 🎰 3 number-based spinning reels  
-- 💵 Win system based on number combinations  
-- 🧠 `Casino` object handles the game logic  
-- 🚫 Alerts shown when credits run out  
+- ✅ Click the **SPIN** button to spin the slot machine  
+- ✅ View the results of the spins with fruit images  
+- ✅ Winning system based on number combinations  
+- 🔁 **RESET** button to restore the game and initial credits  
 
-🔧 Technologies: **HTML, CSS, Vanilla JavaScript**
+🔧 Technologies: **HTML5, CSS, JavaScript (OOP)**
 
 ---
 
@@ -67,15 +67,42 @@ A form for simulating a business purchase, generating a structured purchase code
 
 A simple To Do List application where users can add tasks, mark them as completed, remove tasks, and filter tasks by status. Events are sorted by date and urgency.
 
-- ✅ Add tasks with a date and description  
-- ✅ Mark tasks as completed with checkboxes  
-- ✅ Filter tasks by status (completed, incomplete, or all)  
-- ✅ Filter tasks by urgency (less than 3 days away)  
-- ✅ Remove individual tasks or clear all tasks  
-- 🧠 Uses JavaScript OOP with the `CEvento` and `CLista` classes  
-- 📅 Events are ordered by date  
+- ✅ Add new tasks with a due date  
+- ✅ Mark tasks as completed  
+- ✅ Remove tasks from the list  
+- 🔁 Simple and intuitive interface  
+- 🧠 Uses JavaScript OOP with the `Task` and `TaskList` classes  
 
-🔧 Technologies: **HTML, CSS, JavaScript (OOP), DOM Manipulation**
+🔧 Technologies: **HTML5, CSS, JavaScript (OOP)**
+
+---
+
+### 6. 💣 Minesweeper - Discover the Cells  
+**Folder:** `campoMinato/`
+
+A simple web project in HTML, CSS, and JavaScript (with jQuery) that simulates the classic game of Minesweeper. The user can select cells in the grid and try to uncover all the cells without triggering the mines.
+
+- ✅ Select the difficulty level to customize the game  
+- ✅ Click on the cells to uncover them and view the number of adjacent mines  
+- ✅ **"Reset" button** to reload the page and start the game over  
+- 🔁 Uses **jQuery** for simple and effective DOM manipulation  
+
+🔧 Technologies: **HTML5, JavaScript (OOP + jQuery), CSS**
+
+---
+
+### 7. 🥩 Monthly Meat Consumption Tracker  
+**Folder:** `calcoloEmissioniCO2/`
+
+A minimal web app to track your daily meat consumption per month, estimate your carbon footprint, and save your data locally.
+
+- ✅ Add daily records of meat type and quantity  
+- ✅ View a list of all consumption entries for the selected month  
+- 🧮 Calculates estimated CO₂ emissions using a standard emission factor  
+- 💾 Stores data locally with `localStorage`  
+- 📆 Adjusts day input based on month (handles leap years)  
+
+🔧 Technologies: **HTML, CSS, JavaScript (DOM, localStorage)**
 
 ---
 

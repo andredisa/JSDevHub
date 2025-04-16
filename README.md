@@ -151,4 +151,4 @@ I welcome your feedback, contributions, or collaboration ideas!
 
 ---
 
-### 🧑‍💻✨ Happy coding and enjoy exploring real-world PHP applications!
+### 🧑‍💻✨ Happy coding
